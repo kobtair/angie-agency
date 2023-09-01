@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Holistic Approach",
+    "description": "Blending creativity and tech for comprehensive solutions.",
+    "imageUrl": "/src/assets/brain.png"
+  },
+  {
+    "id": 2,
+    "title": "Experienced Team",
+    "description": "Passionate experts for exceptional results.",
+    "imageUrl": "/src/assets/group.png"
+  },
+  {
+    "id": 3,
+    "title": "Local Insight, Global Vision",
+    "description": "Parisian creativity with a global perspective.",
+    "imageUrl": "/src/assets/eye.png"
+  },
+  {
+    "id": 4,
+    "title": "Collaborative Partnerships",
+    "description": "Your success is our success.",
+    "imageUrl": "/src/assets/hands.png"
+  },
+  {
+    "id": 5,
+    "title": "Results that Matter",
+    "description": "Tangible, measurable strategies for growth.",
+    "imageUrl": "/src/assets/chart.png"
+  }
+]
