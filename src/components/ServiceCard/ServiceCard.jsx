@@ -13,7 +13,7 @@ export default function ServiceCard({id, title, description, imageUrl }) {
 
   return (
     <ServiceCardContainer  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-      <div className={`number hidden md:block ${hover?"hover":""}`}>{id}</div>
+      <div className={`number hidden lg:block ${hover?"hover":""}`}>{id}</div>
       <div className={`title flex gap-x-  items-center ${hover?"hover":""}`}>
         <h3 className="flex gap-x-1 items-center">{title}
         <div
@@ -30,8 +30,8 @@ export default function ServiceCard({id, title, description, imageUrl }) {
         </p>
       </div>
       <div className="relative">
-     <img className={`z-10 w-96 md:w-36 rotate-[11deg] md:rotate-0 md:opacity-0 ${hover?"slide-in": ""}`}  src={imageUrl} height={150} width={150} alt={title} />
-     <img className="absolute hidden md:block top-1/3 left-1/3 -z-10" src="/src/assets/arrow1.png" alt="" />
+     <img className={`z-10 w-96 lg:w-36 rotate-[11deg] lg:rotate-0 lg:opacity-0 ${hover?"slide-in": ""}`}  src={imageUrl} height={150} width={150} alt={title} />
+     <img className="absolute hidden lg:block top-1/3 left-1/3 -z-10" src="/src/assets/arrow1.png" alt="" />
      </div>
     </ServiceCardContainer>
   );

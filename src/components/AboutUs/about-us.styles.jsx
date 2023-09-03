@@ -11,7 +11,7 @@ export const load = keyframes`
 
 export const AboutContainer = styled.div`
   display: flex;
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     flex-wrap: wrap;
   }
 
@@ -24,7 +24,7 @@ export const AboutContainer = styled.div`
     flex-direction: column;
     padding-left: 6vw;
     padding-top: 12vw;
-    @media (max-width: 768px) {
+    @media (max-width: 1000px) {
       width: 100%;
     }
     h2 {
@@ -34,7 +34,7 @@ export const AboutContainer = styled.div`
       font-weight: 800;
       line-height: normal;
       text-transform: uppercase;
-      @media (max-width: 768px) {
+      @media (max-width: 1000px) {
       font-size: 40px;
   }
     }
@@ -44,7 +44,7 @@ export const AboutContainer = styled.div`
       height: 20px;
       background-color: #0f0f0f;
       width: 85vw;
-      @media (max-width: 768px) {
+      @media (max-width: 1000px) {
         display: none;
       }
       .bar2 {
@@ -67,7 +67,7 @@ export const AboutContainer = styled.div`
     font-style: normal;
     font-weight: 600;
     line-height: 30px;
-    @media (max-width: 768px) {
+    @media (max-width: 1000px) {
       width: auto;
     }
   }

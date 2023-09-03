@@ -18,7 +18,7 @@ export const ServiceCardContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
       flex-direction: column;
       justify-content: center;
       align-items: start;
@@ -43,7 +43,7 @@ export const ServiceCardContainer = styled.div`
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-     @media (max-width: 768px) {
+     @media (max-width: 1024px) {
      
      font-size: 30px;
   }
@@ -60,7 +60,7 @@ export const ServiceCardContainer = styled.div`
     font-style: normal;
     font-weight: 500;
     line-height: 30px;
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
       width: auto;
   }
   }
