@@ -5,6 +5,7 @@ export const FeaturesContainer = styled.div`
   padding: 6vw;
   .contact-container {
     border: 1px solid #cfcfcf;
+    padding: 87px 20px 87px 20px;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -27,6 +28,10 @@ export const FeaturesTitle = styled.h2`
   font-weight: 800;
   line-height: normal;
   text-transform: uppercase;
+  @media (max-width: 768px) {
+      font-size: 35px;
+      white-space: nowrap;
+  }
 `;
 
 export const FeatureCardsContainer = styled.div`
@@ -34,4 +39,7 @@ export const FeatureCardsContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 28px;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `;

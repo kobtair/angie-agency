@@ -29,5 +29,9 @@ export const ContactButton = styled.button`
   );
   border-radius: 40px;
   backdrop-filter: blur(100px);
-  border: 1px solid white
+  border: 1px solid white;
+  @media (max-width: 768px) {
+    background-color: #B51A04 ;
+  }
+  
 `;

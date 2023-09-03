@@ -1,11 +1,29 @@
+import { RefsContext } from "../../contexts/RefsContext";
+import { useContext } from "react";
+
 import { AboutContainer } from "./about-us.styles";
 
 export default function AboutUs() {
+  const {aboutTitleRef, aboutSliderRef, aboutTitleInView, aboutSliderInView, servicesTitleInView} = useContext(RefsContext)
   return (
     <AboutContainer>
-      <div className="title"><h2>ABOUT US</h2>
+      <div className="title">
+        <div className="flex items-end gap-x-3">
+        <h2 id='about-title' ref={aboutTitleRef}>ABOUT US</h2>
+        <div
+            className={`dot relative bottom-2 md:bottom-4 opacity-0 w-5 h-5 rounded-full bg-[#B51A04] ${
+               aboutTitleInView && !aboutSliderInView && !servicesTitleInView? "dot-animate" : ""
+            }`}
+          ></div>
+        </div>
       <div className="bar1 ">
-        <div className="bar2 "></div>
+        <div id='about-slider' ref={aboutSliderRef} className={`bar2 flex justify-end ${aboutSliderInView?"bar2-animate":""} `}>
+        <div
+            className={`dot w-5 h-5 opacity-0 rounded-full bg-[#B51A04] ${
+              aboutSliderInView && !servicesTitleInView? "dot-animate" : ""
+            }`}
+          ></div>
+        </div>
       </div>
       </div>
       <div className="description">

@@ -2,21 +2,25 @@
   {
     "id": 1,
     "title": "Branding",
-    "description": "Crafting unique brand identities that resonate, from colors to messaging."
+    "description": "Crafting unique brand identities that resonate, from colors to messaging.",
+    "imageUrl": "/src/assets/branding.png"
   },
   {
     "id": 2,
     "title": "Design Wizards",
-    "description": "Crafting unique brand identities that resonate, from colors to messaging."
+    "description": "Crafting unique brand identities that resonate, from colors to messaging.",
+    "imageUrl": "/src/assets/design.png"
   },
   {
     "id": 3,
     "title": "Social Media",
-    "description": "Creating captivating visuals for graphics, web design, and marketing collateral."
+    "description": "Creating captivating visuals for graphics, web design, and marketing collateral.",
+    "imageUrl": "/src/assets/social-media.png"
   },
   {
     "id": 4,
     "title": "Tech Solutions",
-    "description": "Mobile/Web app development & UI/UX design for visually appealing and user-friendly platforms."
+    "description": "Mobile/Web app development & UI/UX design for visually appealing and user-friendly platforms.",
+    "imageUrl": "/src/assets/tech-solutions.png"
   }
 ]

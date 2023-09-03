@@ -1,0 +1,25 @@
+[
+{
+    "id": 1,
+    "name": "Kelly Williams",
+    "role": "Head of Design, Layers",
+    "quote": "\"Angie Agency transformed our brand's online presence! Their creative strategies doubled our social media engagement.\"",
+    "picture": "/src/assets/avatar.png"
+},
+
+{
+    "id": 2,
+    "name": "John Doe",
+    "role": "CEO at Meta",
+    "quote": "\"Angie Agency's web overhaul boosted online sales by 50%! Expert marketing tactics made the difference\" ",
+    "picture": "/src/assets/avatar3.jpg"
+},
+
+{
+    "id": 3,
+    "name": "David Jones",
+    "role": "CEO at Google",
+    "quote": "\"With Angie Agency, our digital game transformed. Web traffic and engagement skyrocketed.\"",
+    "picture": "/src/assets/avatar2.jpg"
+}
+]

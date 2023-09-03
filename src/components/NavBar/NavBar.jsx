@@ -1,19 +1,31 @@
-import { NavBarContainer, LogoContainer, NavLinksContainer, ContactButton } from "./navbar.styles"
+import { useContext } from "react";
+import {
+  NavBarContainer,
+  LogoContainer,
+  NavLinksContainer,
+  ContactButton,
+} from "./navbar.styles";
+import { RefsContext } from "../../contexts/RefsContext";
 
 export default function NavBar() {
-  return(
-   <NavBarContainer>
-    <LogoContainer> 
-        <img className=" max-h-full max-w-full" src="/src/assets/logo.png" alt="logo" />
-    </LogoContainer>
+  const { contactsRef } = useContext(RefsContext);
+  const scrollToContact = () => {
+    contactsRef.current.scrollIntoView({ behavior: "smooth" });
+  };
 
-    <NavLinksContainer>
-        <ContactButton>
-            Contact Us
-        </ContactButton>
-    </NavLinksContainer>
-   
+  return (
+    <NavBarContainer>
+      <LogoContainer>
+        <img
+          className=" max-h-full max-w-full"
+          src="/src/assets/logo.png"
+          alt="logo"
+        />
+      </LogoContainer>
 
-   </NavBarContainer>
-  )
+      <NavLinksContainer>
+        <ContactButton onClick={scrollToContact}>Contact Us</ContactButton>
+      </NavLinksContainer>
+    </NavBarContainer>
+  );
 }

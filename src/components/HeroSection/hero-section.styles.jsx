@@ -1,8 +1,13 @@
 import styled from "styled-components";
 
+
 export const HeroContainer = styled.div`
   padding-left: 5vw;
   display: flex;
+  padding-bottom: 80px;
+  @media (max-width: 768px) {
+      padding-inline:10px;
+  }
 `;
 
 export const HeroTextContainer = styled.div`
@@ -18,10 +23,15 @@ export const HeroTextContainer = styled.div`
   .main-text {
     width: 70%;
     color: #0d0c0a;
-    font-size: 6vw;
+    font-size: 80px;
     font-style: normal;
     font-weight: 800;
     line-height: 114px;
+    @media (max-width: 768px) {
+      margin-top: 40px;
+    font-size: 35px;
+    line-height: normal;
+  }
   }
 `;
 
@@ -46,5 +56,8 @@ export const HeroImageContainer = styled.div`
         bottom: -50px;
         right: 100px;
     }
+  }
+  @media (max-width: 768px) {
+    display: none;
   }
 `;

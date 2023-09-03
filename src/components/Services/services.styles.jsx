@@ -11,5 +11,8 @@ export const ServicesTitle = styled.h2`
   font-weight: 800;
   line-height: normal;
   text-transform: uppercase;
+  @media (max-width: 768px) {
+     font-size: 40px;
+  }
 `;
 

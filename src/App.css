@@ -1,6 +1,14 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@keyframes ease{
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 100;
+  }
+}
+
+
+.dot-animate{
+  animation: ease 1s ease ;
+  animation-fill-mode: forwards;
 }

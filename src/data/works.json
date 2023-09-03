@@ -1,0 +1,56 @@
+[
+{
+"id": 1,
+"title": "Galaxy Trade",
+"description": "Packaging & branding for a travel agency.",
+"icon": "/src/assets/cone.png",
+"categories": ["Branding"],
+"imageUrl": "/src/assets/galaxy-trade.png"
+},
+
+{
+"id": 2,
+"title": "SaaS - Project Management App",
+"description": "Project Management Tool || Task Manager Tool, where the user can manage his projects, files, etc.",
+"icon": "/src/assets/cube.png",
+"categories": ["Tech Solutions"],
+"imageUrl": "/src/assets/saas-project.png"
+},
+
+{
+"id": 3,
+"title": "Delivery Task Management App",
+"description": "Track your driver route management & pickup delivery task app.",
+"icon": "/src/assets/star.png",
+"categories": ["Tech Solutions"],
+"imageUrl": "/src/assets/delivery-management.png"
+},
+
+{
+"id": 4,
+"title": "Vingt Quatre - Business Card Design",
+"description": "Graphic design for a business card mockups.",
+"icon": "/src/assets/triangle.png",
+"categories": ["Branding"],
+"imageUrl": "/src/assets/vingt-quatre.png"
+},
+
+{
+"id": 5,
+"title": "Awae tea",
+"description": "Angie has brought its expertise in the creation of the brand positioning  marketing and packaging design.",
+"icon": "/src/assets/star.png",
+"categories": ["Branding","Design"],
+"imageUrl": "/src/assets/awae-tea.png"
+},
+
+{
+"id": 6,
+"title": "Noki Noki Food",
+"description": "Graphic logo design and social media marketing for a food cafe.",
+"icon": "/src/assets/triangle.png",
+"categories": ["Social Media","Design"],
+"imageUrl": "/src/assets/noki-noki.png"
+}
+
+]

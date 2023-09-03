@@ -1,6 +1,7 @@
 import { FeatureCardContainer, FeatureImage } from "./feature-card.styles";
 
 export default function FeatureCard({title, description, imageUrl}) {
+
   return (
     <FeatureCardContainer>
       <FeatureImage>
