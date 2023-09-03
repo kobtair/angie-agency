@@ -35,7 +35,7 @@ export default function Features() {
         ))}
         <div className="contact-container">
           <img src="/src/assets/message.png" alt="message" />
-          <span className="hover:underline" onClick={scrollToContact}>Contact us</span>
+          <span className="hover:underline cursor-pointer" onClick={scrollToContact}>Contact us</span>
         </div>
       </FeatureCardsContainer>
     </FeaturesContainer>
